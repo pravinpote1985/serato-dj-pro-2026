@@ -1,0 +1,12 @@
+# Language detection rules
+# This file is used to override language statistics
+
+*.sh text eol=lf
+*.svg text
+*.gif binary
+public/*.html linguist-vendored
+*.tsx linguist-detectable
+src/*.ts linguist-detectable
+*.jpeg binary
+
+dist/* linguist-vendored
